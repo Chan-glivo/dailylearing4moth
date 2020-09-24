@@ -39,6 +39,7 @@ public class Homework05 {
                 }else {
                     continue;
                 }
+
             }
         }
     }
