@@ -34,6 +34,7 @@ public class Homework05 {
                boolean ex1=f1.exists();
                 if (!ex1){
                 f1.createNewFile();
+                    System.out.println("创建副本成功");
                     break;
                 }else {
                     continue;
