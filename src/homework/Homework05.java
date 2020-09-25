@@ -29,7 +29,7 @@ public class Homework05 {
             System.out.println("创建成功");
         }if (ex){
             System.out.println("文件已存在,创建副本");
-            for (int i = 0; i <10; i++) {
+           for (int i = 0; i <i+1; i++) {
                 File f1=new File(".",File.separator+str+"_副本"+i+".txt");
                boolean ex1=f1.exists();
                 if (!ex1){
@@ -39,7 +39,6 @@ public class Homework05 {
                 }else {
                     continue;
                 }
-
             }
         }
     }

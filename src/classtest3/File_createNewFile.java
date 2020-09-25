@@ -16,8 +16,11 @@ public class File_createNewFile {
         if (!file.exists()){
             /*
             * 创建该文件
+            *boolean  isHidden()是否隐藏
+            *
             * */
             file.createNewFile();
+            file.isHidden();
             System.out.println("创建完毕！");
         }else{
             System.out.println("该文件已存在");
